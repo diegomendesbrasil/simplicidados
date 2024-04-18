@@ -1,1 +1,1 @@
-create schema dmb2
+create schema dmb

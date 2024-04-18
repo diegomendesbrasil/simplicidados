@@ -79,3 +79,5 @@ validators==0.22.0
 watchdog==3.0.0
 xlrd==2.0.1
 zipp==3.17.0
+psycopg2-binary==2.9.9
+bcrypt==4.1.2

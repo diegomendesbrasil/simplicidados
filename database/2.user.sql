@@ -1,25 +1,19 @@
--- public.users definition
-
--- Drop table
-
--- DROP TABLE public.users;
 CREATE TABLE dmb.users (
-	id serial4 NOT NULL,
-	nome varchar(255) NULL,
-	cpf_cnpj varchar(50) NULL,
-	aniversario date NULL,
-	sexo varchar(50) NULL,
-	endereco varchar(255) NULL,
-	cep numeric(8) NULL,
-	cidade varchar(150) NULL,
-	estado varchar(150) NULL,
-	telefone varchar(50) NULL,
-	empresa varchar(255) NULL,
-	email varchar(255) NULL,
-	login varchar(50) NULL,
-	senha varchar(100) NULL,
-	dtiniciocontrato date NOT NULL,
-	dtfimcontrato date,
-	statuscontrato varchar(100),   ----ativo, inativo, atrasado, etc
-	CONSTRAINT users_pkey PRIMARY KEY (id)
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf_cnpj VARCHAR(14) NOT NULL,
+    aniversario DATE,
+    sexo VARCHAR(50),
+    endereco VARCHAR(255),
+    cep VARCHAR(8),
+    cidade VARCHAR(150),
+    estado VARCHAR(150),
+    telefone VARCHAR(15),
+    empresa VARCHAR(255),
+    email VARCHAR(255) NOT NULL,
+    login VARCHAR(50) NOT NULL,
+    senha BYTEA NOT NULL,
+    dtiniciocontrato DATE NOT NULL,
+    dtfimcontrato DATE,
+    statuscontrato VARCHAR(100) NOT NULL
 );

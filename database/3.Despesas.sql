@@ -1,12 +1,11 @@
 
 CREATE TABLE dmb.despesa (
-	id serial4 NOT NULL,
-    iduser INT NOT NULL,
-    DtVencimento date NOT NULL,
-    dtpagamento date,
-    idFornecedor int NOT NULL,
-    vldespesa numeric(10,2) NOT NULL,
-    vlpago numeric(10,2) NOT NULL,
-    parcelas INT NOT NULL,
-	CONSTRAINT users_pkey PRIMARY KEY (id)
+    id SERIAL PRIMARY KEY,
+    iduser INT NOT NULL REFERENCES dmb.users(id),
+    dtvencimento DATE NOT NULL,
+    dtpagamento DATE,
+    idfornecedor INT NOT NULL REFERENCES dmb.fornecedor(id),
+    vldespesa NUMERIC(10, 2) NOT NULL,
+    vlpago NUMERIC(10, 2) NOT NULL,
+    parcelas INT NOT NULL
 );

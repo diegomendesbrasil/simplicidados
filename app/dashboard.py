@@ -3,7 +3,7 @@ import streamlit as st
 from user_info import render_user_info  # Importação da função de informações do usuário
 from dashboard_content import display_dashboard  # Importação da função de conteúdo do dashboard
 from cadastro import user_registration_form  # Importação da função de conteúdo do dashboard
-
+ 
 def dashboard():
     with st.sidebar:
         st.sidebar.title('Menu Principal')

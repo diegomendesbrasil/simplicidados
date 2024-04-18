@@ -1,9 +1,9 @@
 
-A origem do nome "Pulsar.Dados" reflete a essência e os valores fundamentais da nossa empresa. Inspirado nos pulsares do universo - estrelas de nêutrons que emitem pulsos de radiação regularmente - o nome simboliza a regularidade, precisão e o potencial iluminador dos dados no mundo dos negócios. Assim como os pulsares são faróis no cosmos, a "Pulsar.Dados" visa ser um guia confiável na análise de dados para MEIs e pequenas empresas.
+A origem do nome "SimPliciDados" reflete a essência e os valores fundamentais da nossa empresa. Inspirado nos pulsares do universo - estrelas de nêutrons que emitem pulsos de radiação regularmente - o nome simboliza a regularidade, precisão e o potencial iluminador dos dados no mundo dos negócios. Assim como os pulsares são faróis no cosmos, a "SimPliciDados" visa ser um guia confiável na análise de dados para MEIs e pequenas empresas.
 
-O ponto no nome enfatiza a nossa abordagem moderna e tecnológica, indicando uma interseção entre simplicidade e inovação - valores centrais da nossa missão. Ele representa nosso compromisso em oferecer soluções intuitivas e acessíveis, permitindo que nossos clientes transformem dados em insights acionáveis com facilidade e precisão. "Pulsar.Dados" simboliza nossa visão de empoderar os proprietários de pequenas empresas, permitindo-lhes tomar decisões informadas baseadas em dados, melhorar suas operações e impulsionar o crescimento sustentável.
+O ponto no nome enfatiza a nossa abordagem moderna e tecnológica, indicando uma interseção entre simplicidade e inovação - valores centrais da nossa missão. Ele representa nosso compromisso em oferecer soluções intuitivas e acessíveis, permitindo que nossos clientes transformem dados em insights acionáveis com facilidade e precisão. "SimPliciDados" simboliza nossa visão de empoderar os proprietários de pequenas empresas, permitindo-lhes tomar decisões informadas baseadas em dados, melhorar suas operações e impulsionar o crescimento sustentável.
 
-Em essência, "Pulsar.Dados" reflete nossa dedicação à inovação, simplicidade, empoderamento, integridade e parceria. É mais do que um nome; é uma promessa de sermos um aliado constante e confiável na jornada de nossos clientes rumo ao sucesso orientado por dados.
+Em essência, "SimPliciDados" reflete nossa dedicação à inovação, simplicidade, empoderamento, integridade e parceria. É mais do que um nome; é uma promessa de sermos um aliado constante e confiável na jornada de nossos clientes rumo ao sucesso orientado por dados.
 
 ### Missão, Visão e Valores:
 

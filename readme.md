@@ -4,7 +4,7 @@ virtualenv env
 
 source env/bin/activate  
 
-instalar o streamlit
+pip install -r requirements.txt
 
 streamlit hello
 
