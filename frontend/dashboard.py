@@ -1,8 +1,10 @@
 from streamlit_option_menu import option_menu
 import streamlit as st
-from user_info import render_user_info  # Importação da função de informações do usuário
-from dashboard_content import display_dashboard  # Importação da função de conteúdo do dashboard
-from cadastro import user_registration_form  # Importação da função de conteúdo do dashboard
+from frontend.user_info import render_user_info  # Informações do usuário
+from frontend.dashboard_content import display_dashboard  # Conteúdo do dashboard
+from frontend.expenses import contas_pagar
+from frontend.revenues import contas_receber
+
  
 def dashboard():
     with st.sidebar:
@@ -19,16 +21,16 @@ def dashboard():
 
     # Definir a página com base na seleção
     if selected == "Dashboard":
-        display_dashboard()  # Carrega o conteúdo do Dashboard
+        display_dashboard()
     elif selected == "Contas a Pagar":
-        st.write("Página de Contas a Pagar")  # Substituir pela função correspondente
+        contas_pagar()
     elif selected == "Contas a Receber":
-        st.write("Página de Contas a Receber")  # Substituir pela função correspondente
+        contas_receber()
     elif selected == "Cadastro de Clientes":
         st.write("Página de Cadastro de Clientes")  # Substituir pela função correspondente
     elif selected == "Cadastro de Fornecedores":
         st.write("Página de Cadastro de Fornecedores")  # Substituir pela função correspondente
     elif selected == "Cadastro de Usuário":
-        user_registration_form() # Substituir pela função correspondente
+        st.write("Cadastro de Usuário")
     # Adicione condições para outras páginas conforme necessário
     # ...
