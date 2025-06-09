@@ -1,6 +1,5 @@
 import streamlit as st
-import login
-import dashboard
+from frontend import login, dashboard
 # Importe os outros módulos de página conforme necessário
 
 # Inicializar variáveis de estado de sessão

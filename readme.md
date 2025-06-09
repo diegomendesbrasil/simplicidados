@@ -1,15 +1,18 @@
 # 📌 Estratégia do Projeto
 
-## 🏗️ Estrutura dos Módulos
+## 🏗️ Estrutura
 
-Os módulos do sistema serão desenvolvidos com base nas tabelas do banco de dados já existentes. A seguir estão os principais módulos a serem implementados:
+O projeto está organizado em dois diretórios principais:
 
-### 📂 Módulos
-- **Usuário (`user`)**
-- **Despesas (`despesas`)**
-- **Receita (`receita`)**
-- **Cliente (`cliente`)**
-- **Fornecedor (`fornecedor`)**
+* `backend` &ndash; API desenvolvida em **FastAPI** e integrada ao **PostgreSQL** via SQLAlchemy.
+* `frontend` &ndash; Interface feita com **Streamlit** que consome a API para gerenciar contas a pagar e a receber.
+
+As principais entidades do sistema são:
+* Usuário
+* Despesas
+* Receitas
+* Cliente
+* Fornecedor
 
 ## 🔐 Criação da Tela de Login
 
@@ -19,6 +22,17 @@ A tela de login será desenvolvida seguindo a estrutura definida na conversa do 
 1. **Criação da Tela de Login**
 2. **Implementação do Dashboard Pós-Login**
    - Seguir o layout definido na conversa do WhatsApp
+
+### 🚀 Execução
+
+1. Inicie a API:
+   ```bash
+   uvicorn backend.main:app --reload
+   ```
+2. Em outro terminal, rode a interface:
+   ```bash
+   streamlit run frontend/app.py
+   ```
 
 ---   
        
